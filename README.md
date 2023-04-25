@@ -19,6 +19,6 @@ php artisan db:seed --class=OpinionTableSeeder<br>
 php artisan serve<br>
 
 <h2>Compte à utilisé :</h2>
-<h4>email : admin@namekcbd.ch</h4>
+<h4>email : admin@namek.ch</h4>
 <h4>MDP : Admin2023</h4>
 
