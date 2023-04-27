@@ -58,10 +58,48 @@ h1{
     margin-right: 15%;
 }
 
+/* CAROUSEL FLUX RSS */
+#myCarousels-2{
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.content-new-product{
+    height: 90%;
+    width:60%;
+    margin:0 auto;
+}
+
+.title-new-product{
+    margin-top:5%;
+    padding-left:3%;
+    padding-right:3%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image-new-product{
+    height: 90%;
+    width:70%;
+    margin:0 auto;
+}
 .card img{
     width: 50%;
     margin: auto;
 }
+
+/* TEST CAROUSEL */
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 @media (max-width: 990px) {
     #button-home a{
@@ -79,6 +117,11 @@ h1{
         margin-right: 5%;
         margin-left: 6%;
     }
+    #myCarousels-2{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 6%;
+    }
     #a-admin{
         margin-top: 5%;
     }
@@ -87,6 +130,14 @@ h1{
 @media (max-width: 592px) {
     #carousel-categorie {
         height: 15rem;
+    }
+    #carousel-categorie-2 {
+        height: 15rem;
+    }
+    .content-new-product{
+        height: 70%;
+        width:70%;
+        margin:0 auto;
     }
 }
 

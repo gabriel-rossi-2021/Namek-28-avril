@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 /* REDIRECTION SUR LA VIEW HOME */
 Route::get('/', "App\\Http\\Controllers\\shop\\MainController@index")->name('home');
 
-
 // REDIRECTION SUR LA VIEW PRODUIT ALL
 Route::get('produit', "App\\Http\\Controllers\\shop\\MainController@productAll");
 // REDIRECTION SUR LA VIEW DETAILS DU PRODUIT

@@ -22,7 +22,11 @@ class MainController extends Controller
     public function index(){
         // RENVOIE LES CATEGORIES
         $categories = Category::all();
-        return view('shop.indexCategory', compact('categories'));
+
+        // RENVOIE LES 5 DERNIERS PRODUITS AJOUTEE - FLUX RSS
+        $rss = Product::orderBy('created_at', 'desc')->take(5)->get();
+
+        return view('shop.indexCategory',  compact('categories', 'rss'));
     }
 
     public function showFunction(){

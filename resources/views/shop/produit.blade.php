@@ -44,7 +44,7 @@
         <div class="row products-div">
             @foreach($produits as $produit)
                 <div class="col-md-12 col-lg-4 mb-4 mb-lg-0 product-card">
-                    <div class="card" style="box-shadow: 0 15px 20px -12px #499b4a;">
+                    <div class="card">
                         <img src="{{ asset('img/Products/'.$produit->image_product) }}" class="card-img-top" alt="lemon haze" style="height: 250px;width: 50%;margin:auto" />
                         <div class="card-body">
                             <div class="d-flex justify-content-between">

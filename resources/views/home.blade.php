@@ -52,15 +52,11 @@
 
     @yield('category')
 
+    <!-- RSS FLUX -->
+    <h1 style="text-align: center;">Nos 5 nouveaux produits</h1>
 
-    <section>
-        <h1 style="text-align: center;">Nouveaux Produits (en construction)</h1>
-        <div class="container py-5">
-            <div class="row">
+    @yield('rss')
 
-            </div>
-        </div>
-    </section>
 </main>
 @include('Include/footer')
 </body>
